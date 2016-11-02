@@ -1,0 +1,14 @@
+{
+  "name": "mobileapp",
+  "app_id": "",
+  "gulpStartupTasks": [
+    "stylus",
+    "templatecache",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ],
+  "documentRoot": "www"
+}

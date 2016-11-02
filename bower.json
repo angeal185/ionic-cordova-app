@@ -1,0 +1,21 @@
+{
+  "name": "mobileapp",
+  "private": "true",
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#latest"
+  },
+  "dependencies": {
+    "underscore": "latest",
+    "ngmap": "latest",
+    "angular-moment": "latest",
+    "angular-resource": "latest",
+    "ngCordova": "latest",
+    "angular-slugify": "latest",
+    "ionic-contrib-tinder-cards": "*",
+    "bourbon": "latest",
+    "angular-youtube-mb": "latest"
+  },
+  "resolutions": {
+    "angular": "~1.5.1"
+  }
+}

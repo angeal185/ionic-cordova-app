@@ -8,12 +8,12 @@ var sourcemaps = require('gulp-sourcemaps');
 var templateCache = require('gulp-angular-templatecache');
 
 var paths = {
-  stylus: ['./scss/**/*.scss'],
+  stylus: ['./stylus/**/*.stylus'],
   templatecache: ['./www/views/**/*.html']
 };
 
 gulp.task('stylus', function(done) {
-  gulp.src('./scss/ionic.app.scss')
+  gulp.src('./stylus/ionic.app.scss')
     .pipe(sourcemaps.init())
     .pipe(stylus({
       errLogToConsole: true

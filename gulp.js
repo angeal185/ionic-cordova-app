@@ -13,7 +13,7 @@ var paths = {
 };
 
 gulp.task('stylus', function(done) {
-  gulp.src('./stylus/ionic.app.scss')
+  gulp.src('./stylus/ionic.app.styl')
     .pipe(sourcemaps.init())
     .pipe(stylus({
       errLogToConsole: true

@@ -1,1 +1,1 @@
-# ionic-cordova-app
+# ionic cordova starter app
